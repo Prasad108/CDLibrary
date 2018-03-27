@@ -49,6 +49,10 @@ public class Album {
 	public void setType(String type) {
 		this.type = type;
 	}
+	@Override
+	public String toString() {
+		return "Album [id=" + id + ", name=" + name + ", year=" + year + ", type=" + type + "]";
+	}
 	
 
 }
