@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="_DdUQMQZ9Ed-_Mf-vL8UigQ" activeDiagram="_iYlgkQdkEd-jMt-xX7TITw">
+  <model href="CDLibrary.uml#_mBbikAXPEd-Gftvw3SPOUw"/>
+  <subdiagrams xmi:id="_iYlgkAdkEd-jMt-xX7TITw">
+    <model href="CDLibrary.uml#_sNOWcAXPEd-Gftvw3SPOUw"/>
+    <diagrams xmi:id="_iYlgkQdkEd-jMt-xX7TITw" position="0,0" size="100,100" name="CDLibrary" viewport="0,0">
+      <property xmi:id="_iZVHcAdkEd-jMt-xX7TITw" key="pageFormatName" value="A4"/>
+      <property xmi:id="_iZVHcQdkEd-jMt-xX7TITw" key="diagramWidth" value="840"/>
+      <property xmi:id="_iZVHcgdkEd-jMt-xX7TITw" key="diagramHeight" value="1188"/>
+      <property xmi:id="_iZVHcwdkEd-jMt-xX7TITw" key="pageMarginName" value="Small Margin"/>
+      <property xmi:id="_iZVHdAdkEd-jMt-xX7TITw" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_iZVHdQdkEd-jMt-xX7TITw" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_iZVHdgdkEd-jMt-xX7TITw" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_iZVHdwdkEd-jMt-xX7TITw" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_iZVHeAdkEd-jMt-xX7TITw" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_iYlgkgdkEd-jMt-xX7TITw" presentation="org.topcased.modeler.uml.classdiagram">
+        <element href="CDLibrary.uml#_sNOWcAXPEd-Gftvw3SPOUw"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_n0l2QAdkEd-jMt-xX7TITw" position="34,79" size="540,161">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_n0l2QQdkEd-jMt-xX7TITw" presentation="default">
+          <element href="CDLibrary.uml#_0EsB8AXPEd-Gftvw3SPOUw"/>
+        </semanticModel>
+      </contained>
+    </diagrams>
+    <subdiagrams xmi:id="_AuKWsAdLEd-jMt-xX7TITw">
+      <model href="CDLibrary.uml#_0EsB8AXPEd-Gftvw3SPOUw"/>
+      <diagrams xmi:id="_AuUHsAdLEd-jMt-xX7TITw" position="0,0" size="100,100" name="pom" viewport="0,0">
+        <property xmi:id="_AvDukAdLEd-jMt-xX7TITw" key="pageFormatName" value="A4"/>
+        <property xmi:id="_AvDukQdLEd-jMt-xX7TITw" key="diagramWidth" value="840"/>
+        <property xmi:id="_AvM4gAdLEd-jMt-xX7TITw" key="diagramHeight" value="1188"/>
+        <property xmi:id="_AvM4gQdLEd-jMt-xX7TITw" key="pageMarginName" value="Small Margin"/>
+        <property xmi:id="_AvM4ggdLEd-jMt-xX7TITw" key="diagramTopMargin" value="20"/>
+        <property xmi:id="_AvM4gwdLEd-jMt-xX7TITw" key="diagramBottomMargin" value="20"/>
+        <property xmi:id="_AvM4hAdLEd-jMt-xX7TITw" key="diagramLeftMargin" value="20"/>
+        <property xmi:id="_AvM4hQdLEd-jMt-xX7TITw" key="diagramRightMargin" value="20"/>
+        <property xmi:id="_AvM4hgdLEd-jMt-xX7TITw" key="orientation" value="portrait"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_AuUHsQdLEd-jMt-xX7TITw" presentation="org.topcased.modeler.uml.classdiagram">
+          <element href="CDLibrary.uml#_0EsB8AXPEd-Gftvw3SPOUw"/>
+        </semanticModel>
+      </diagrams>
+      <subdiagrams xmi:id="_7w4H4AdLEd-jMt-xX7TITw"/>
+    </subdiagrams>
+  </subdiagrams>
+</diagrams:Diagrams>

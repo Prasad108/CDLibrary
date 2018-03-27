@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>EJ3Training</groupId>
+	<artifactId>CDLibrary</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0.0</version>
+  
+	<description></description>
+	<repositories>
+		<repository>
+			<!-- This repository is mapped to a Maven2 proxy. This one gives access
+				to O&D and common Maven2 repositories  -->
+			<id>proxiedRepositories</id>
+			<name>OD and common proxied repositories</name>
+			<url>http://repository.atosworldline.com/maven2</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<!-- Testing dependencies -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.4</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- Enterprise dependency-->
+		<dependency>
+			<groupId>javax.jee</groupId>
+			<artifactId>jee</artifactId>
+			<version>1.5</version>
+		</dependency>
+		<!-- Database Driver-->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.0.8</version>
+		</dependency>      
+		<!-- Hibernate dependency for JPA Mode -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>3.3.1.ga</version>  
+		</dependency>       
+	</dependencies>
+    
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.5</source>
+					<target>1.5</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
